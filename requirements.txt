@@ -1,10 +1,9 @@
 streamlit==1.36.0
 pandas==2.2.2
 numpy==1.26.4
-tensorflow==2.16.1          # works well on Python 3.11
 scikit-learn==1.4.2
 matplotlib==3.8.4
-seaborn==0.13.2
-h5py==3.11.0                # tf model save/load
-protobuf==4.25.3            # tf pin: >=3.20.3,<5
-grpcio==1.62.2              # tf runtime dep
+gensim==4.3.2
+scipy==1.11.4
+tensorflow-cpu==2.16.1
+joblib==1.4.2
